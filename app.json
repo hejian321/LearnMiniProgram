@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/join/join"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2e5e86",
+    "navigationBarTitleText": "信贷demo",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#2e5e86",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/ic_home_normal.png",
+        "selectedIconPath": "images/ic_home_pressed.png"
+      },
+      {
+        "pagePath": "pages/join/join",
+        "text": "加入",
+        "iconPath": "images/ic_join_normal.png",
+        "selectedIconPath": "images/ic_join_pressed.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}
